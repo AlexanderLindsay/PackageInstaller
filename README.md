@@ -63,6 +63,20 @@ npm install tsd -g
 Now TSD is installed globally on the system and this extension
 can use it.
 
+### Typings package manager
+You must install Typings using npm in order for the Typings package manager
+to work.
+
+Open a console and type the following command:
+
+```cmd
+npm install typings -g
+```
+
+Now Typings is installed globally on the system and this extension can use it.
+
+> Note: TSD is deprecated in favor of Typings.
+
 ### bower.json / package.json
 
 You can install packages without having set up Bower, JSPM or npm.

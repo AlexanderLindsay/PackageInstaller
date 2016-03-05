@@ -69,6 +69,7 @@
     <Compile Include="Providers\Npm.cs" />
     <Compile Include="Providers\Bower.cs" />
     <Compile Include="Providers\IPackageProvider.cs" />
+    <Compile Include="Providers\Typings.cs" />
     <Compile Include="Settings.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -87,6 +88,7 @@
       <Link>Resources\LICENSE</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Resource Include="Resources\typings.png" />
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
